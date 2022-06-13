@@ -9,16 +9,16 @@
     height: 100%;
     object-fit: cover;
   }
+}
 
-  .avartar-24 {
-    @extend %avatar-base;
-    width: 24px;
-    height: 24px;
-  }
+.avatar-24 {
+  @extend %avatar-base;
+  width: 24px;
+  height: 24px;
+}
 
-  .avartar-32 {
-    @extend %avatar-base;
-    width: 32px;
-    height: 32px;
-  }
+.avatar-32 {
+  @extend %avatar-base;
+  width: 32px;
+  height: 32px;
 }
